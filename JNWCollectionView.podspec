@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.screenshots  = "http://jwilling.com/drop/github/JNWCollectionView.png"
   s.license      = 'MIT'
   s.author       = { "Jonathan Willing" => "hi@jwilling.com" }
-  s.source       = { :git => "https://github.com/jwilling/JNWCollectionView.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/miguel12345/JNWCollectionView.git", :tag => s.version.to_s }
 
   s.platform     = :osx, '10.8'
   s.requires_arc = true
