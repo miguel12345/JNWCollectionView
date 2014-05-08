@@ -60,4 +60,8 @@ extern NSString * const JNWCollectionViewGridLayoutFooterKind;
 /// Default is YES.
 @property (nonatomic, assign) BOOL itemPaddingEnabled;
 
+//Content inset, preserve view frame
+@property (nonatomic, assign) CGFloat leftContentInset;
+@property (nonatomic, assign) CGFloat rightContentInset;
+
 @end

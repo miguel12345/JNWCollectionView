@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>18BCAB54-6316-414B-885C-A7549AA4387F</string>
+	<string>B6928E63-57AB-4F9D-86B0-174F36A49A36</string>
 	<key>IDESourceControlProjectName</key>
 	<string>JNWCollectionView</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,10 +14,10 @@
 		<string>https://github.com/petejkim/expecta.git</string>
 		<key>217BCF70-24BF-4054-AE16-1605E9D3C4E0</key>
 		<string>https://github.com/petejkim/specta.git</string>
-		<key>526643B2-44EF-494B-A8FB-0F49F828E300</key>
-		<string>https://github.com/jwilling/Rebel.git</string>
-		<key>DFC6CB6E-56CD-4A18-B4DD-726F4CE6A3FC</key>
-		<string>https://github.com/jwilling/JNWCollectionView.git</string>
+		<key>CFFA84F2-89DB-4CDD-AACA-A97CED47713C</key>
+		<string>https://github.com/miguel12345/JNWCollectionView</string>
+		<key>E9E60A41-E453-430C-9944-4A8FF5F2C180</key>
+		<string>https://github.com/jwilling/JNWScrollView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>JNWCollectionView.xcodeproj/project.xcworkspace</string>
@@ -27,17 +27,17 @@
 		<string>../../external/Expecta</string>
 		<key>217BCF70-24BF-4054-AE16-1605E9D3C4E0</key>
 		<string>../../external/Specta</string>
-		<key>526643B2-44EF-494B-A8FB-0F49F828E300</key>
-		<string>../../external/Rebel</string>
-		<key>DFC6CB6E-56CD-4A18-B4DD-726F4CE6A3FC</key>
+		<key>CFFA84F2-89DB-4CDD-AACA-A97CED47713C</key>
 		<string>../..</string>
+		<key>E9E60A41-E453-430C-9944-4A8FF5F2C180</key>
+		<string>../../external/JNWScrollView</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jwilling/JNWCollectionView.git</string>
+	<string>https://github.com/miguel12345/JNWCollectionView</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DFC6CB6E-56CD-4A18-B4DD-726F4CE6A3FC</string>
+	<string>CFFA84F2-89DB-4CDD-AACA-A97CED47713C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -52,17 +52,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DFC6CB6E-56CD-4A18-B4DD-726F4CE6A3FC</string>
+			<string>CFFA84F2-89DB-4CDD-AACA-A97CED47713C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>JNWCollectionView</string>
+			<string>jnwcollectionview-extended</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>526643B2-44EF-494B-A8FB-0F49F828E300</string>
+			<string>E9E60A41-E453-430C-9944-4A8FF5F2C180</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Rebel</string>
+			<string>JNWScrollView</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

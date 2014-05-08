@@ -108,7 +108,7 @@ static const CGSize JNWCollectionViewGridLayoutDefaultSize = (CGSize){ 44.f, 44.
 	BOOL delegateHeightForHeader = [self.delegate respondsToSelector:@selector(collectionView:heightForHeaderInSection:)];
 	BOOL delegateHeightForFooter = [self.delegate respondsToSelector:@selector(collectionView:heightForFooterInSection:)];
 	
-	CGFloat totalWidth = self.collectionView.visibleSize.width;
+	CGFloat totalWidth = self.collectionView.visibleSize.width -(self.leftContentInset + self.rightContentInset);
 	NSUInteger numberOfColumns = totalWidth / itemSize.width;
 	NSUInteger numberOfSections = [self.collectionView numberOfSections];
 	
@@ -139,7 +139,7 @@ static const CGSize JNWCollectionViewGridLayoutDefaultSize = (CGSize){ 44.f, 44.
 		
 		for (NSInteger item = 0; item < numberOfItems; item++) {
 			CGPoint origin = CGPointZero;
-			origin.x = self.itemPadding + (item % numberOfColumns) * (itemSize.width + self.itemPadding);
+			origin.x = self.leftContentInset + self.itemPadding + (item % numberOfColumns) * (itemSize.width + self.itemPadding);
 			origin.y = ((item - (item % numberOfColumns)) / numberOfColumns) * itemSize.height;
 			sectionInfo.itemInfo[item].origin = origin;
 		}
